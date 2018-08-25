@@ -1,0 +1,226 @@
+.Marketplace{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.Marketplace .card{
+  color: rgb(76, 88, 105) !important;
+  background-color: rgba(76,88,105,0) !important;
+  border: none;
+  transition: .3s;
+}
+
+.Marketplace .card:hover{
+  cursor: pointer;
+  -webkit-box-shadow: -1px 3px 32px 7px rgba(0,0,0,0.15);
+  -moz-box-shadow: -1px 3px 32px 7px rgba(0,0,0,0.15);
+  box-shadow: -1px 3px 32px 7px rgba(0,0,0,0.15);
+}
+
+.Marketplace h2{
+  font-size: 38px;
+  font-weight: 100;
+  font-family: 'Jura', sans-serif;
+  color: rgb(76, 88, 105);
+  margin-bottom: 20px;
+}
+
+.m-box{
+  background-color: white;
+  border-radius: 3px;
+  -webkit-box-shadow: -1px 3px 32px 7px rgba(0,0,0,0.18);
+  -moz-box-shadow: -1px 3px 32px 7px rgba(0,0,0,0.18);
+  box-shadow: -1px 3px 32px 7px rgba(0,0,0,0.18);
+}
+
+.m-box .row>.col-lg-3>.card{
+  border-radius: 0;
+}
+
+.platforms_settings .row{
+  margin: auto;
+}
+
+.m-settings{
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: white;
+  color: rgb(76, 88, 105);
+  padding: 15px;
+}
+
+.m-settings h2{
+  font-size: 25px;
+  font-weight: 100;
+  font-family: 'Noto Sans', sans-serif;
+  color: rgb(76, 88, 105);
+  margin-bottom: 20px;
+}
+
+.custom-control-label:before{
+  background-color:#daecff;
+}
+
+.market-product-lang{
+  width: 25px;
+  height: 25px;
+}
+
+
+.set-content{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.set-rating{
+  cursor: pointer;
+}
+
+.set-price{
+  cursor: pointer;
+}
+
+.product{
+  border-radius: 5px !important;
+}
+
+.product-user-avatar{
+  width: 140px !important;
+  height: 140px !important;
+  border-radius: 50% !important;
+}
+
+.product-platform-twitter{
+  transition: .3s;
+  cursor: pointer;
+}
+
+.product-platform-twitter-active{
+  color: #71a7e6;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.Marketplace .card:hover .product-platform-twitter{
+  color: #71a7e6;
+}
+
+.market-profile-verifyed{
+  color: green;
+  font-size: 20px;
+}
+
+
+.product-platform-facebook{
+  transition: .3s;
+  cursor: pointer;
+}
+
+.product-platform-facebook-active{
+  color: #48598f;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.Marketplace .card:hover .product-platform-facebook{
+  color: #48598f;
+}
+
+
+.product-platform-youtube{
+  transition: .3s;
+  cursor: pointer;
+}
+
+.product-platform-youtube-active{
+  color: #fe2027;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.Marketplace .card:hover .product-platform-youtube{
+  color: #fe2027;
+}
+
+
+.product-platform-instagram{
+  transition: .3s;
+  cursor: pointer;
+}
+
+.product-platform-instagram-active{
+  color: #bf3287;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.Marketplace .card:hover .product-platform-instagram{
+  color: #bf3287;
+}
+
+
+.product-platform-vk{
+  transition: .3s;
+  cursor: pointer;
+}
+
+.product-platform-vk-active{
+  color: #416da7;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.Marketplace .card:hover .product-platform-vk{
+  color: #416da7;
+}
+
+
+.product-platform-twitch{
+  transition: .3s;
+  cursor: pointer;
+}
+
+.product-platform-twitch-active{
+  color: #6a3ab2;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.Marketplace .card:hover .product-platform-twitch{
+  color: #6a3ab2;
+}
+
+
+.product-platform-other{
+  transition: .3s;
+  cursor: pointer;
+}
+
+.product-platform-other-active{
+  color: #358ae2;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.Marketplace .card:hover .product-platform-other{
+  color: #358ae2;
+}
+
+
+.loading-products{
+  color: rgb(76, 88, 105);
+}
+
+.market-pagination{
+  color: rgb(76, 88, 105);
+  font-size: 25px;
+}
+
+.market-pagination i {
+  cursor: pointer;
+  transition: .3s;
+}
+
+.market-pagination i:hover{
+  color: #358ae2;
+}

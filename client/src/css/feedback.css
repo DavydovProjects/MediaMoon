@@ -1,0 +1,28 @@
+
+.feedback-cards .card{
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.feedback-profile-avatar{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.feedback-page-username{
+  cursor: pointer;
+}
+
+.feedback-profile-icon{
+  transition: .2s;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.feedback-report-body{
+  color: rgb(76, 88, 105) !important;
+}
+
+.feedback-profile-title-body{
+  border-radius: 3px;
+}

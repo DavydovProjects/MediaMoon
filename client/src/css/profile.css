@@ -1,0 +1,211 @@
+.p-box{
+  font-family: 'Noto Sans';
+  color: rgb(76, 88, 105);
+  border-radius: 3px;
+  padding-top: 1rem;
+  -webkit-box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+  -moz-box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+  box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+}
+
+.push-profile-wallpaper{
+  height: 120px;
+}
+
+.profile-user-data a{
+  color: rgb(76, 88, 105) !important;
+}
+
+.profile-user-data a:hover{
+  text-decoration: none !important;
+  color: rgb(76, 88, 105) !important;
+}
+
+.profile-wallpaper{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  width: 100%;
+  height: 300px;
+}
+
+.profile-avatar{
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+.profile-username{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.profile-icon{
+  font-size: 25px;
+}
+
+.profile-footer{
+
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.profile-products{
+  border-radius: 3px;
+}
+
+.profile-feedback{
+
+  border-radius: 3px;
+}
+
+.profile-title-body{
+  margin-top: -90px;
+  border-radius: 3px;
+}
+
+.profile-feedback .card{
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.profile-feedback-user{
+  cursor: pointer;
+}
+
+.from_user_avatar{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.feedback-text{
+  border-radius: 3px;
+  color: rgb(76, 88, 105);
+}
+
+#report-tooltip{
+  cursor: pointer;
+  transition: .3s;
+}
+
+#report-tooltip:hover{
+  color: #fd5659;
+}
+
+.modal-backdrop{
+  background: none;
+  position: relative;
+  z-index: 0 !important;
+}
+
+.modal-dialog{
+  margin-top: 80px !important;
+}
+
+.modal-content{
+  border: none;
+  -webkit-box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.20);
+  -moz-box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.20);
+  box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.20);
+}
+
+.btn-outline-secondary:hover{
+  color: white !important;
+}
+
+.profile-like-user{
+  transition: .3s;
+}
+
+.profile-like-user i {
+  cursor: pointer;
+}
+
+.profile-verifyed{
+  vertical-align: 3px;
+  font-size: 23px;
+  color: green;
+}
+
+
+
+.profile-product-twitter{
+  font-size: 40px;
+  color: #4c5868 !important;
+}
+.profile-product-twitter-active{
+  font-size: 40px;
+  transition: .3s;
+  cursor: pointer;
+  color: #71a7e6 !important;
+}
+
+
+.profile-product-facebook{
+  font-size: 40px;
+  color: #4c5868 !important;
+}
+.profile-product-facebook-active{
+  font-size: 40px;
+  transition: .3s;
+  cursor: pointer;
+  color: #48598f !important;
+}
+
+
+.profile-product-youtube{
+  font-size: 40px;
+  color: #4c5868 !important;
+}
+.profile-product-youtube-active{
+  font-size: 40px;
+  transition: .3s;
+  cursor: pointer;
+  color: #fe2027 !important;
+}
+
+
+.profile-product-instagram{
+  font-size: 40px;
+  color: #4c5868 !important;
+}
+.profile-product-instagram-active{
+  font-size: 40px;
+  transition: .3s;
+  cursor: pointer;
+  color: #bf3287 !important;
+}
+
+
+.profile-product-vk{
+  font-size: 40px;
+  color: #4c5868 !important;
+}
+.profile-product-vk-active{
+  font-size: 40px;
+  transition: .3s;
+  cursor: pointer;
+  color: #416da7 !important;
+}
+
+
+.profile-product-twitch{
+  font-size: 40px;
+  color: #4c5868 !important;
+}
+.profile-product-twitch-active{
+  font-size: 40px;
+  transition: .3s;
+  cursor: pointer;
+  color: #6a3ab2 !important;
+}
+
+
+.profile-product-other{
+  font-size: 40px;
+  color: #4c5868 !important;
+}
+.profile-product-other-active{
+  font-size: 40px;
+  transition: .3s;
+  cursor: pointer;
+  color: #358ae2 !important;
+}

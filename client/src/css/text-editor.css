@@ -1,0 +1,32 @@
+.RichEditor-root{
+  font-family: 'Noto Sans', sans-serif !important;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-family: Georgia,serif;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.RichEditor-editor{
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.RichEditor-controls{
+  font-size: 14px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+.RichEditor-styleButton{
+  color: #999;
+  cursor: pointer;
+  margin-right: 16px;
+  padding: 2px 0;
+  display: inline-block;
+}
+
+.RichEditor-activeButton {
+    color: #5890ff;
+}

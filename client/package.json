@@ -1,0 +1,32 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "draft-js": "^0.10.5",
+    "draft-js-export-html": "^1.2.0",
+    "popper.js": "^1.14.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-js-pagination": "^3.0.2",
+    "react-numeric-input": "^2.2.3",
+    "react-redux": "^5.0.7",
+    "react-render-html": "^0.6.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.4",
+    "react-scroll": "^1.7.9",
+    "react-tooltip": "^3.6.1",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.1.1",
+    "tooltip.js": "^1.2.0",
+    "url-search-params-polyfill": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,16 @@
+.order-thing{
+  transition: .2s;
+}
+
+.order-thing:hover{
+  cursor: pointer;
+  color: #f44336;
+}
+
+.link-to-account{
+  color: #0079fa !important;
+}
+
+.link-to-account:hover{
+  color: white !important;
+}

@@ -1,0 +1,57 @@
+.order-item a{
+  color: rgb(76, 88, 105) !important;
+}
+
+.order-item .card{
+  border: none;
+  background-color: rgba(1,1,1,0);
+  transition: .3s;
+}
+
+.order-item .card:hover{
+  -webkit-box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+  -moz-box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+  box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+}
+
+.order-chat-container{
+  overflow: hidden !important;
+}
+
+.order-chat-avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+
+.order-chat {
+  top: 10px;
+  bottom: 10px;
+  overflow: auto;
+  overflow-y : scroll;
+  height: 500px;
+}
+
+.order-comment-text{
+  font-size: 15px;
+}
+
+.order-profile-avatar{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.order-chat-form input{
+  border-top-left-radius: 0;
+}
+
+.order-chat-form button{
+  border-top-right-radius: 0;
+}
+
+.order-comment-text{
+  background-color: #eeeeee;
+  border-radius: 5px;
+}

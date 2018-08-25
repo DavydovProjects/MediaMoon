@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+.App{
+  font-family: 'Noto Sans', sans-serif;
+  background-color: white !important;
+}
+
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.mm-gray{
+  color: rgb(76, 88, 105) !important;
+}
+
+/* actual dropdown animation */
+/* .dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    max-height: 0;
+    display: block;
+    opacity: 0;
+}
+
+.dropdown.show .dropdown-menu {
+    max-height: 200px;
+    opacity: 1;
+} */
+.dropdown-item{
+  transition: .2s;
+  cursor: pointer;
+}
+.dropdown-item:hover{
+  background-color: rgba(0,0,0,0.1)
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+.c-box{
+  font-family: 'Noto Sans', sans-serif;
+  color: rgb(76, 88, 105);
+  border-radius: 3px;
+  padding-top: 1rem;
+  -webkit-box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+  -moz-box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+  box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+}
+
+
+.msg-avatar{
+  border-radius: 50%;
+  width: 50px ;
+  height: 50px;
+}
+
+
+.reset-forget-password-button{
+  min-height: 42px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}

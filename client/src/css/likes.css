@@ -1,0 +1,25 @@
+.like-item .card{
+  border:none;
+  transition: .3s;
+  cursor: pointer;
+}
+
+table a{
+  color: rgb(76, 88, 105) !important;
+}
+
+.like-item:hover .card{
+  -webkit-box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+  -moz-box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+  box-shadow: -1px 0px 32px 6px rgba(0,0,0,0.18);
+}
+
+.like-profile-nickname{
+  color: rgb(76, 88, 105) !important;
+}
+
+.like-profile-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+}
